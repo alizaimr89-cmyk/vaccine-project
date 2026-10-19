@@ -1,0 +1,47 @@
+NURTUREDOSE — PREMIUM COMPLETE PROJECT
+======================================
+
+THIS ZIP CONTAINS THE WHOLE PROJECT in one folder: vaccination-management
+
+INSTALL ON YOUR EXISTING XAMPP PROJECT
+--------------------------------------
+1. Keep a backup of your current folder first.
+2. Extract this ZIP.
+3. Open the extracted vaccination-management folder.
+4. Copy the CONTENTS of that folder into your current folder:
+   C:\xampp\htdocs\E-prjoect\vaccination-management\
+5. When Windows asks, choose Replace files in destination.
+6. Do NOT delete or re-import your existing database if it is already working.
+7. Start Apache and MySQL in XAMPP.
+8. Open: http://localhost/E-prjoect/vaccination-management/index.php
+9. Refresh with Ctrl + F5.
+
+ADMIN SETUP
+-----------
+Admin login: http://localhost/E-prjoect/vaccination-management/admin-login.php
+One-time admin creation helper (only if needed):
+http://localhost/E-prjoect/vaccination-management/create_admin.php
+After creating the admin, delete create_admin.php from the project folder.
+
+PARENT PORTAL
+-------------
+Register: http://localhost/E-prjoect/vaccination-management/register.php
+Parent login: http://localhost/E-prjoect/vaccination-management/login.php
+
+PREMIUM FEATURES
+----------------
+- Premium responsive landing page and feature sections
+- Parent account, child profiles, appointment requests and vaccination history
+- Separate admin and hospital portals
+- Admin management for bookings, hospitals and vaccine catalogue
+- Admin appointment status visualisation
+- CSV exports for appointments and completed vaccination records
+- Search box on dashboard tables
+- Printable vaccination certificates
+- Server-side role checks, password hashing, CSRF tokens and prepared SQL queries
+
+NOTES
+-----
+This is a student/educational project. Use fictional test data only. Vaccine schedule information
+must be confirmed with a qualified healthcare provider. The PHP code was syntax-checked, but you
+must test the app with your own local XAMPP/MySQL database after copying it.

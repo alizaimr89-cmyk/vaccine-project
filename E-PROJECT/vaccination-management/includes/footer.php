@@ -1,0 +1,1 @@
+</main><footer class="footer"><div><strong>NurtureDose</strong><span> · Vaccination tracking made clearer.</span></div><small>Educational project · PHP + MySQL</small></footer><script src="<?= BASE_URL ?>/assets/app.js"></script></body></html>
